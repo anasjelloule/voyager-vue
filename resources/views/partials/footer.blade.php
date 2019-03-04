@@ -1,9 +1,32 @@
 <!-- ========== FOOTER ========== -->
 <footer class="bg-primary">
-    <div class="container-fluid space-1 px-6">
+    <div class="container-fluid py-5 px-6">
         <div class="row justify-content-between">
             <div class=" col-md-2">
-                <img src="{{asset('./img/logo_footer.png')}}" class="img-fluid" alt="logo abrar" />
+                <img src="{{asset('./img/logo_footer.png')}}" class="img-fluid w-60" alt="logo abrar" />
+                <ul class="icon-social space-1-top pl-0">
+                    <li class="ml-0">
+                        <a href="{{ setting('site.facebook') }}" target="_blank">
+                            <!-- <img src="{{asset('https://www.ev-qlik.com/wp-content/themes/elephantvert/assets/img/facebook.png')}}"> -->
+                            <span class="soci fa"><i class="fab fa-facebook-f"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ setting('site.twitter') }}" target="_blank">
+                                    <span class="soci twi"><i class="fab fa-twitter"></i></span>
+                                </a>
+                    </li>
+                    <li>
+                        <a href="{{ setting('site.instagram') }}" target="_blank">
+                                    <span class="soci inst"><i class="fab fa-instagram"></i></span>
+                                </a>
+                    </li>
+                    <li>
+                        <a href="{{ setting('site.youtube') }}" target="_blank">
+                                    <span class="soci yout"><i class="fab fa-youtube"></i></span>
+                                </a>
+                    </li>
+                </ul>
             </div>
             <div class="col-md-8 p-0">
                 <div class="row">
@@ -20,30 +43,8 @@
 
                         {{ menu('Top_menu','partials.menufooter') }}
                     </div>
-                    <div class="col-md-12">
-                        <ul class="icon-social space-1-top">
-                            <li class="ml-0">
-                                <a href="{{ setting('site.facebook') }}" target="_blank">
-                                    <!-- <img src="{{asset('https://www.ev-qlik.com/wp-content/themes/elephantvert/assets/img/facebook.png')}}"> -->
-                                    <span class="soci fa"><i class="fab fa-facebook-f"></i></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ setting('site.twitter') }}" target="_blank">
-                                        <span class="soci twi"><i class="fab fa-twitter"></i></span>
-                                    </a>
-                            </li>
-                            <li>
-                                <a href="{{ setting('site.instagram') }}" target="_blank">
-                                        <span class="soci inst"><i class="fab fa-instagram"></i></span>
-                                    </a>
-                            </li>
-                            <li>
-                                <a href="{{ setting('site.youtube') }}" target="_blank">
-                                        <span class="soci yout"><i class="fab fa-youtube"></i></span>
-                                    </a>
-                            </li>
-                        </ul>
+                    <div class="col-md-12 d-none">
+
                     </div>
                 </div>
             </div>
