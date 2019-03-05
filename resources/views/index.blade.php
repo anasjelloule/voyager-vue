@@ -34,8 +34,8 @@
 <!-- plan -->
 <div class="container-fluid plan">
     <div class="row justify-content-center bg-primary">
-        <div class="col-md-6 p-0"><img class="img-fluid w-100" src="img/map_left.png" alt="plan" /></div>
-        <div class="col-md-6 p-0"><img class="img-fluid w-100" style="border-left: 3px solid white;" src="img/map_right.png" alt="map" /></div>
+        <div class="col-md-6 p-0 d-none"><img class="img-fluid w-100" src="img/map_left.png" alt="plan" /></div>
+        <div class="col-md-6 p-0 d-none"><img class="img-fluid w-100" style="border-left: 3px solid white;" src="img/map_right.png" alt="map" /></div>
         <div class="col-md-8 space-2">
             <p class="text-white" style="font-size: 30px;">Le projet la Perle d&rsquo;Abrar de Berrechid vous offre des lots de terrains viabilis&eacute;s et &eacute;quip&eacute;s
                 de type R +2 R +3 R +4 Diff&eacute;rentes superficies sont disponibles &agrave; partir de 80 m&egrave;tres
